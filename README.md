@@ -5,11 +5,11 @@
 | -------- | ---------------------------------------- |
 | 电脑型号 | DELL-inspiron-5488             |
 | 处理器   | 英特尔 酷睿 i5-8265u处理器             |
-| 内存     | 16GB  DDR4 2400MHz                 |
-| 硬盘     | 西部数据 NVMe固态硬盘 sn520 256GB                  |
-| 集成显卡 | 英特尔图形卡 UHD 620  （无独显）                          |
+| 内存     | 12GB  DDR4 2400MHz                 |
+| 硬盘     | 东芝 NVMe固态硬盘 sn520 256GB                  |
+| 集成显卡 | 英特尔图形卡 UHD 620  （独显MX250）                          |
 | 声卡     | 瑞昱 ALC236                     |
-| 网卡     | 博通 BCM94360cs2                             |
+| 网卡     | 博通 DW1820A                             |
 
 ## 适用机型
 DELL-5488(核显版/独显版均可，i5/i7)。  
@@ -17,8 +17,7 @@ DELL-5488(核显版/独显版均可，i5/i7)。
 DELL-Inspiron_5480_5580_5482_5582.  
 DELL-Vostro_5481_5581。  
 ## 已知问题：
-1：笔记本内屏出现色带，显示不均匀。外接显示器没问题。（不影响使用）  
-2：指纹 (应该无解)。  
+1：指纹 (应该无解)。  
 ## 正常功能：
 1：显卡  
 2：声卡  
@@ -28,7 +27,7 @@ DELL-Vostro_5481_5581。
 6：触摸板正常，手势全部可用。  
 7：usb全部正常。  
 8：电池电量显示正常。  
-9：摄像头正常使用（但是有个奇怪的问题，Facetime打开黑的，再打开一下Photo Booth就变正常，qq视频，微信视频没问题。）  
+9：摄像头正常使用  
 10：睡眠正常。  
 11：变频正常。  
 12：支持原生亮度快捷键。  
@@ -42,8 +41,7 @@ DELL-Vostro_5481_5581。
 4：安装好后画无法使用触摸板，或者升级后触控板无法使用。你需要在每次更新系统后重建缓存。运行 `Kext Utility.app` 或者在 `终端.app` 输入 `sudo kextcache -i /`，然后重启。  
 5：快捷关闭触摸板，打开设置-辅助功能-鼠标与触摸板：启用鼠标键，点一下后面的选项勾选“按下Option键五次来开关鼠标键”。后就可以通过按五次Option键快捷关闭触摸板了。  
 6：耳机插上没有声音。请打开ALCPlugFix执行[install双击自动安装.command](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/ALCPlugFix/install双击自动安装.command)
-## 原装卡更换图解
-详见[network_card](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/network_card.md)
+
 ## 更新日志
 详见[Update_log](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/Update_log.md)
 ## 致谢
